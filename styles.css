@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+
+}
+.background {
+    background-color: #56c5ff;
+    height: 100vh;
+    padding-top: 1px;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    font-weight: bolder;
+    color: green;
+    margin-bottom: 1em;
+}
+
+.board {
+    margin: 0 auto;
+    display: grid;
+    padding: 2px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    max-width: 500px;
+    border: 3px solid rgb(12, 0, 0);
+    border-radius: 5px;
+    background-color:rgb(90, 90, 90);
+}
+
+.score-board-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+.score-board{
+    background-color: lime;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    border: 1px solid rgb(12, 0, 0);
+    border-radius: 5px;
+}
+ 
+
+.cell {
+    min-width: 90px;
+    min-height: 60px;
+    border-top: 1px solid rgb(50, 50, 50);
+    border-right: 1px solid rgb(50, 50, 50);
+    border-bottom: 3px solid silver;
+    border-left: 3px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.lime-cell {
+    background-color: limegreen;
+}
+
+.purple-cell {
+    background-color: rgb(249, 16, 222);
+}
+
+.red-cell {
+    background-color: red;
+}
+.yellow-cell {
+    background-color: gold;
+}
+.blue-cell {
+    background-color: blue;
+}
+.green-cell {
+    background-color: green;
+}
+.pink-cell {
+    background-color: pink;
+}
+.browen-cell {
+    background-color: brown;
+}
+.cyan-cell {
+    background-color: cyan;
+}
+.orange-cell {
+    background-color: orange;
+}
+.marked-cell {
+    border: 3px solid black;
+    border-radius: 5px;
+}
