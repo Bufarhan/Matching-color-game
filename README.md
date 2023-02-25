@@ -1,3 +1,4 @@
+![Example Image](example.png "A preview image")
 # Matching Colors Game
 A simple board game with timer and scores
 
